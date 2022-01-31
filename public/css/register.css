@@ -1,0 +1,113 @@
+body,
+html {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #272966;
+    text-align: center;
+    margin-top: -5px;
+}
+
+
+/* everything is almost same as login UI.
+    I have created a folder 'images' inside our 'public' folder,
+            images folder location inside "public/images/img5.jpg".
+    */
+
+.bg-img {
+    background-image: url("/images/img5.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.container {
+    position: absolute;
+    right: 35%;
+    left: 35%;
+    margin-top: 20px;
+    max-width: 400px;
+    padding: 16px;
+    background-color: white;
+}
+
+
+/* All input type using same css property (other input type "text" except password) */
+
+input[type=text],
+input[type=password] {
+    width: 98%;
+    padding: 15px;
+    margin: 7px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+
+/* All input type using same css property (other input type "text" except password) */
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.container i {
+    width: 2%;
+    margin-left: -30px;
+    margin-right: 2px;
+    cursor: pointer;
+}
+
+#position {
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.btn {
+    background-color: #272966;
+    color: white;
+    padding: 16px 20px;
+    margin-bottom: 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.btn:hover {
+    opacity: 1;
+    color: white;
+}
+
+
+/* Already have account (login) text decoration below */
+
+a:link {
+    font-weight: bold;
+    color: #484bb6;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}

@@ -1,0 +1,107 @@
+body,
+html {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #272966;
+}
+
+
+/* I have created a folder 'images' inside our 'public' folder,
+  		images folder location inside "public/images/img1.jpg".
+  */
+
+.bg-img {
+    background-image: url("/images/img1.jpg");
+    height: 110%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    right: 20px;
+    margin-top: 140px;
+    max-width: 400px;
+    padding: 16px;
+    background-color: white;
+}
+
+
+/* usename & password both same css property */
+
+input[type=text],
+input[type=password] {
+    width: 98%;
+    padding: 15px;
+    margin: 7px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+
+/* usename & password after mouse click */
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.container i {
+    width: 2%;
+    margin-left: -30px;
+    margin-right: 2px;
+    cursor: pointer;
+}
+
+#position {
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.btn {
+    background-color: #272966;
+    color: white;
+    padding: 16px 20px;
+    margin-bottom: 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.btn:hover {
+    opacity: 1;
+    color: white;
+}
+
+
+/* Customer Account text decoration below */
+
+a:link {
+    font-weight: bold;
+    color: #484bb6;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}

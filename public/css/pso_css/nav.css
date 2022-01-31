@@ -1,0 +1,109 @@
+/*
+To change bootstrap by default property use the same name property and
+modify with custom property.
+
+ Here line number 10 (first property) margin & radius of border is set to be 0 
+ to avoid default margin and border. 
+ */
+
+.navbar.navbar-inverse {
+    background-color: #272966;
+    margin-bottom: 0;
+    border-radius: 0;
+    border-color: #272966;
+}
+
+
+/* left side logo or text "Online Order" css property (line 19) & HOVER (line 23)*/
+
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+.navbar-inverse .navbar-brand:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+/* .sidenav {
+    height: 50%;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    margin-top: 52px;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+} */
+
+
+/* left side menu option */
+
+.sidenav {
+    background-color: #f1f1f1;
+    font-weight: bold;
+    width: 300px;
+    margin-left: -140px;
+    height: 100%;
+}
+
+.sidenav2 {
+    background-color: #f1f1f1;
+    font-weight: bold;
+    width: 200px;
+    margin-left: -140px;
+    height: 100%;
+}
+
+.sidenav a,
+.dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: rgba(51, 112, 183, 0.8);
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+
+.sidenav a:hover,
+.dropdown-btn:hover {
+    background-color: rgba(51, 112, 183, 0.8);
+    color: #f1f1f1;
+}
+
+#anchor:hover {
+    background-color: rgba(51, 112, 183, 0.8);
+    color: #f1f1f1;
+}
+
+#anchor2:hover {
+    background-color: rgba(51, 112, 183, 0.8);
+    color: #f1f1f1;
+}
+
+.dropdown-container {
+    display: none;
+    background-color: #e6e6e6;
+    padding-left: 30px;
+    padding-bottom: 5px;
+}
+
+.active {
+    background-color: rgba(51, 112, 183, 1);
+    color: white;
+}
+
+
+/* Optional: Style the caret down icon */
+
+.fa-caret-down {
+    float: right;
+    padding-right: 8px;
+}
